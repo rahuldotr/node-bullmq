@@ -1,0 +1,24 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "A Node.js application to handle race condition",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./producer.js",
+    "dev": "nodemon ./producer.js"
+  },
+  "keywords": [
+    "node",
+    "stan",
+    "race-condition"
+  ],
+  "author": "Rahul R",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "redis": "^4.6.13"
+  }
+}
